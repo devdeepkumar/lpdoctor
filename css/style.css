@@ -795,7 +795,8 @@ hook section end
 }
 
 .benefits_desc {
-    padding-inline: 54px;
+    width: 190px;
+    margin-inline: auto;
     font-size: 16px;
     color: var(--text-accordion);
 }

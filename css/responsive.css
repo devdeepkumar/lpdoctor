@@ -181,11 +181,6 @@
   }
 }
 
-@media (max-width:1400px){
-     .benefits_desc{
-    padding-inline: 0;
-  }
-}
 
 
 
@@ -420,6 +415,9 @@
 
 #arrow_2::before {
   visibility: visible !important;
+}
+.benefits_desc{
+  width: auto;
 }
 }
 
