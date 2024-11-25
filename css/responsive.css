@@ -142,8 +142,11 @@
 
 @media (min-width:992px) and (max-width:1423px){
       .people_joined_right span {
-    padding-left: 33px;
+    /* padding-left: 33px; */
+
   }
+
+
   .right_register {
    padding: 10px;
    font-size: 12px;
@@ -177,6 +180,15 @@
     max-width: 1320px;
   }
 }
+
+@media (max-width:1400px){
+     .benefits_desc{
+    padding-inline: 0;
+  }
+}
+
+
+
 
 @media (max-width: 991px) {
   .down-icon-animate {
@@ -686,6 +698,10 @@
     
     margin-bottom: 25px
   }
+
+  .card-content .card-description{
+    text-align: center;
+  }
 }
 
 @media (max-width: 476px) {
@@ -708,7 +724,7 @@
   }
 
   .register_tag {
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .brown_heading {

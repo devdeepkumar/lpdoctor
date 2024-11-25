@@ -414,6 +414,7 @@ section {
 div#thumb_0 {
     /* height: 353px; */
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -755,7 +756,8 @@ hook section end
     background: none;
     border: none;
     cursor: pointer;
-    transition: color 0.3s ease
+    transition: color 0.3s ease;
+    display: block;
 }
 
 .read-more-btn:hover {
@@ -793,6 +795,7 @@ hook section end
 }
 
 .benefits_desc {
+    padding-inline: 54px;
     font-size: 16px;
     color: var(--text-accordion);
 }
