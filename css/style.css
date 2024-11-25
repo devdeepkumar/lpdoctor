@@ -1268,6 +1268,7 @@ hook section end
     font-size: 15px;
     font-family: Nunito;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .center-area .address a {
