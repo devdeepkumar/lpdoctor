@@ -186,6 +186,7 @@
 .people_joined_right span {
     padding-left: 54px;
 }
+}
 
 @media (max-width: 991px) {
   .down-icon-animate {
@@ -702,6 +703,15 @@
   .card-content .card-description{
     text-align: center;
   }
+  .white_block.who .row{
+    margin-top: 0;
+  }
+  .right-area{
+    gap: 0;
+  }
+   .host_about{
+    margin-top: 16px;
+   }
 }
 
 @media (max-width: 476px) {
