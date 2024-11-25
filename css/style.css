@@ -726,7 +726,9 @@ hook section end
 
 .card-description {
     font-size: 1.125rem;
-    color: var(--text-include)
+    color: var(--text-include);
+    text-align: left;
+    
 }
 
 .hidden {

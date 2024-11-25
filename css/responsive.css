@@ -136,6 +136,18 @@
   .register_mobile {
     display: none !important;
   }
+
+
+}
+
+@media (min-width:992px) and (max-width:1423px){
+      .people_joined_right span {
+    padding-left: 33px;
+  }
+  .right_register {
+   padding: 10px;
+   font-size: 12px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -157,12 +169,7 @@
     font-size: 1.25rem;
   }
 
-  .people_joined_right span {
-    padding-left: 28px;
-  }
-  .right_register {
-   padding: 15px;
-  }
+
 }
 
 @media (min-width: 1400px) {
