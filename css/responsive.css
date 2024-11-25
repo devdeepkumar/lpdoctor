@@ -406,6 +406,9 @@
   .Fixed_WhatsApp_Icon {
     display: none;
   }
+  .white_block.who .row{
+    gap: 30px;
+  }
  
 }
 
@@ -637,7 +640,7 @@
   }
 
   .text_who {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     text-align: center;
   }
 
@@ -705,7 +708,7 @@
     text-align: center;
   }
   .white_block.who .row{
-    margin-top: 0;
+    /* margin-top: 0; */
   }
   .right-area{
     gap: 0;
