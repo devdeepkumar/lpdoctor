@@ -414,7 +414,7 @@ section {
 div#thumb_0 {
     /* height: 353px; */
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     align-items: center;
     justify-content: center;
 }
@@ -988,7 +988,7 @@ hook section end
 }
 
 .accordion-answer {
-    padding: 1rem;
+    padding: 5px 1.25rem 1.5rem;
     font-size: .875rem;
     color: var(--text-accor-para);
     opacity: 0;
