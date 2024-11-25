@@ -141,12 +141,7 @@
 }
 
 @media (min-width:992px) and (max-width:1423px){
-      .people_joined_right span {
-    /* padding-left: 33px; */
-
-  }
-
-
+     
   .right_register {
    padding: 10px;
    font-size: 12px;
@@ -183,7 +178,14 @@
 
 
 
-
+@media (max-width: 1240px) {
+ .people_joined_right img {
+    width: 55px;
+    height: 55px;
+}
+.people_joined_right span {
+    padding-left: 54px;
+}
 
 @media (max-width: 991px) {
   .down-icon-animate {
