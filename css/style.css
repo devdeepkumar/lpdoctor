@@ -630,6 +630,10 @@ hook section end
     font-size: 16px;
 }
 
+.card .card-description{
+    text-align: left;
+}
+
 /* 
 
  ================
@@ -2044,6 +2048,7 @@ Curriculum section
     font-size: 16px;
     line-height: 25px;
     margin-top: 1rem;
+    text-align: center;
 }
 
 /* 
