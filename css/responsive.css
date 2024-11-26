@@ -167,7 +167,6 @@
     font-size: 1.25rem;
   }
 
-
 }
 
 @media (min-width: 1400px) {
@@ -176,6 +175,12 @@
   }
 }
 
+@media (max-width:1024px){
+  .right-area{
+    margin-bottom: 15px;
+  }
+
+}
 
 
 @media (max-width: 1240px) {
@@ -242,6 +247,13 @@
     border-bottom: 1px solid #c9c6c6;
   }
 
+  .row_laptop{
+    margin-inline: auto;
+  }
+  .people_joined {
+    justify-content: center;
+    padding-block: 15px;
+  }
   #hook {
     background: transparent;
     padding-inline: 0;

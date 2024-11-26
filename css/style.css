@@ -1197,6 +1197,7 @@ hook section end
     margin-top: 60px;
     justify-content: space-evenly;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .left-area {
