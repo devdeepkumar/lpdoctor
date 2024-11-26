@@ -185,12 +185,11 @@
 
 
 @media (max-width: 1240px) {
- .people_joined_right img {
-    width: 55px;
-    height: 55px;
-}
+ .people_joined_right{
+  font-size: 8px;
+ }
 .people_joined_right span {
-    padding-left: 54px;
+    padding-left: 36px;
 }
 }
 
