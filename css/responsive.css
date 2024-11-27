@@ -807,6 +807,11 @@
     transform: rotate(180deg); /* Rotate the image by 90 degrees */
     transform-origin: center; /* Rotate around the center */
   }
+      .content_area {
+        padding-inline: 25px;
+        gap: 0px;
+       
+    }
   .content_area .center-area h4 {
     margin-bottom: 20px;
   }
