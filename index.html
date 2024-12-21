@@ -78,21 +78,23 @@
 
   <!-- on leave card start -->
 
-  <div class="OnLeaveCard">
+   <div class="OnLeaveCard">
     <div class="Card">
       <div class="heading">
         Request a Free Call Back
       </div>
       <div class="input">
-        <form action="mail/mail3.php" method="post" id="Call_Back_NO" class="form">
+        <form action="mail/mail3.php" method="post" id="Call_Back_NO" class="form pop-up">
+          <input type="text" name="mbl_no2" class="User_Number"  required=""
+            autocomplete="off" placeholder="Enter Your Name">
           <input type="text" name="mbl_no2" class="User_Number" pattern="(9[0-9]{7})|(2[0-9]{7})" required=""
-            autocomplete="off">
+            autocomplete="off" placeholder="Enter Your Phone Number">
           <button class="Call_MeBtn" name="submit_new2" type="submit">CALL ME BACK</button>
         </form>
       </div>
-      <div class="no_thanks_btn">
-        <button class="No_ThanksBtn"><a href="/">No Thanks</a></button>
-      </div>
+      <!-- <div class="no_thanks_btn">
+        <button class="No_ThanksBtn">X</button>
+      </div> -->
     </div>
   </div>
 
@@ -312,6 +314,8 @@
             </div>
           </div>
         </div>
+
+      
 
       </div>
     </section>
@@ -1574,6 +1578,8 @@
       <h4 hrf="./">Schedule Your Appointment
       </h4>
       <form action="mail/mail2.php" method="post" class="form">
+        <input name="user_name" type="text" placeholder="Enter Your Name"
+          required="" class="input User_Number" style="color: black;margin-bottom: 15px;" autocomplete="off">
         <input name="mbl_no" type="text" pattern="(9[0-9]{7})|(2[0-9]{7})" placeholder="Enter Your Phone Number"
           required="" class="input User_Number" style="color: black;" autocomplete="off">
 

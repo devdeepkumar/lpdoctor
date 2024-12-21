@@ -2198,6 +2198,24 @@ Curriculum section
 .OnLeaveCard .Card {
     background: #f4f4f4;
     border-radius: 4px;
+    width: 35%;
+    position: relative;
+}
+
+.OnLeaveCard .No_ThanksBtn{
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background: transparent;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+
+    
+        color: #fff;
+        font-size: 20px;
+    
 }
 
 .OnLeaveCard .Card .heading {
@@ -2214,7 +2232,7 @@ Curriculum section
     display: flex;
     justify-content: center;
     gap: 18px;
-    margin: 30px 100px;
+    margin: 10px 50px;
 }
 
 .OnLeaveCard .Card .no_thanks_btn {
@@ -2229,9 +2247,10 @@ Curriculum section
 .OnLeaveCard .Card .input input {
     border: 1px solid #cacaca;
     height: 36px;
-    width: 16rem;
+    /* width: 16rem; */
     padding: 2px 8px;
     border-radius: 3px;
+    width: 100%
 }
 
 .OnLeaveCard .Card .input button {
@@ -2241,8 +2260,10 @@ Curriculum section
     padding: 10px 12px;
     border-radius: 3px;
     font-weight: 500;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     padding-bottom: 9px;
+    width: fit-content;
+    text-align: center;
 
 }
 
@@ -2259,7 +2280,85 @@ Curriculum section
 
 }
 
+.form.pop-up{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center */
+    gap:10px;
+    width: 100%;
+    padding-block: 10px
+}
+
 /* Onleave Card Css end here  */
 
 
-.close-icon {}
+.logo_container{
+    margin-top: 100px;
+}
+
+.logos {
+    overflow: hidden;
+    /* padding: 40px 0; */
+    background: transparent;
+    white-space: nowrap;
+    /* position: relative; */
+    width: 70%;
+   
+}
+
+.logo-head{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.logos-slide {
+    display: inline-block;
+    /* animation: 30s slide infinite linear; */
+    /* width: 50%; */
+}
+
+.logos-slide img {
+    height: 100px;
+    margin: 0 20px;
+    object-fit: contain;
+}
+
+ 
+@keyframes slide{
+    0% {
+    transform: translateX(0);
+}
+    100% {
+    transform: translateX(-100%);
+}
+}
+
+.logo_container{
+    display: flex;
+    flex-direction: row;
+}
+.logos-slide {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            max-width: 1000px;
+            align-items: center;
+}
+.logos-slide img {
+            flex: 0 0 20%; 
+            max-width: 20%;
+            transition: transform 0.5s ease-in-out;
+}
+
+
+   
+
+
+
+
+
+
+
+

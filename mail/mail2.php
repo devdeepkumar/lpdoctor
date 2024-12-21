@@ -16,6 +16,7 @@ die('We are sorry, but there appears to be a problem with the form you submitted
 }
 
 $mblno =$_POST['mbl_no']; // required
+$username =$_POST['user_name']; // required
 
 
 
@@ -52,6 +53,7 @@ return str_replace($bad,"",$string);
 }
 
 $ip = $_SERVER['REMOTE_ADDR'];
+@$email_message .= "User: ".clean_string($username)."\n";
 @$email_message .= "Mobile: ".clean_string($mblno)."\n";
 @$email_message .= "IP: ".clean_string($ip)."\n";
 $email_message .= "Full URL: " . clean_string($full_url) . "\n";
